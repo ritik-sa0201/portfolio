@@ -9,7 +9,7 @@ function ResumeButton() {
       className="relative inline-flex overflow-hidden rounded-3xl group"
       onClick={() =>
         window.open(
-          "https://drive.google.com/file/d/16sJqkK1jv3Rva_xar8NenrcRe3y1HJeL/view?usp=sharing",
+          "https://drive.google.com/file/d/1J7hla7UhGKofR5Mqs4jK-_R-er2rXgD5/view?usp=sharing",
           "_blank"
         )
       } // Replace with your resume URL
