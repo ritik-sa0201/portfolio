@@ -21,7 +21,7 @@ function Projects() {
   });
 
   return (
-    <div className="carousel h-[700vh] bg-white pt-10 " ref={targetRef}>
+    <div className="carousel h-[900vh] bg-white pt-10 " ref={targetRef}>
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -81,6 +81,21 @@ function Projects() {
           >
             <ImageContainer
               imageSource={"pro1.png"}
+              description={"hello world"}
+            />
+          </motion.div>
+          <motion.div
+            className="image-item flex-shrink-0 w-[60vw]"
+            whileHover={{ width: 1400 }}
+            onClick={() =>
+              window.open(
+                "https://github.com/ritik-sa0201/Steramify2",
+                "_blank"
+              )
+            }
+          >
+            <ImageContainer
+              imageSource={"pro5.png"}
               description={"hello world"}
             />
           </motion.div>
